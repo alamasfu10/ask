@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ask</string>
+    <string name="title_section1">Inicio</string>
+    <string name="title_section2">Categorias</string>
+    <string name="title_section3">Perfil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    
+     <string name="buttonAddQuestion">Nueva</string>
+     <string name="buttonSearch">Buscar</string>
+     
+     <!-- Layout de vista "Nueva Pregunta" -->
+     <string name="newQuestion">Nueva pregunta</string>
+     <string name="send">Enviar</string>
+     <string name="caracters">Caracteres: </string>
+      
+      
+     <!-- Layout de vista "Pregunta" -->
+     <string name="answer">Contestar</string>
+     <string name="text">El mensaje es, en el sentido más general, el objeto de la comunicación. 
+        Está definido como la información que el emisor envía al receptor a través de un canal de comunicación o medio de comunicación determinado (como el habla o la escritura, por ejemplo). 
+</string>
+
+</resources>

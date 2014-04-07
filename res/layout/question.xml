@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#669933">
+    
+    <TableLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+        
+<!-- Fila 1 -->
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/userQuestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="4"
+                android:text="user0" />
+
+            <TextView
+                android:id="@+id/dateQuestion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="02/03/2014  19:57" />
+
+            <ImageButton
+                android:id="@+id/buttonFav"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/btn_star"
+                android:background="#00000000"/>
+        </TableRow>
+        
+<!-- Fila 2 -->
+
+         <TableRow
+             android:id="@+id/tableRow2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/textViewQuestion"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="clip_horizontal"
+                android:layout_weight="1"
+                android:text="@string/text" />
+
+        </TableRow>
+        
+<!-- Fila 3 -->
+        
+          <TableRow 
+              android:id="@+id/tableRow3">
+
+              <Button
+                  android:id="@+id/buttonAnswer"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="30dp"
+                  android:layout_weight="3"
+                  android:text="@string/answer" />
+
+              <ImageButton
+                  android:id="@+id/buttonDenunciate"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:src="@android:drawable/presence_busy"
+                  android:layout_gravity="center_vertical"
+                  android:background="#00000000"/>
+              
+			  <ImageButton
+                  android:id="@+id/buttonShare"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:src="@android:drawable/ic_menu_share"
+                  android:layout_gravity="center_vertical"
+                  android:background="#00000000"/>
+          </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

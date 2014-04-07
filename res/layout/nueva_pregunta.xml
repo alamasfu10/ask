@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/idholahola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Nueva pregunta"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        
+       <View
+      	    android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <EditText
+            android:id="@+id/id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.01"
+            android:gravity="top|left"
+            android:hint="Escriba aquí su pregunta..." >
+            
+        </EditText>
+        
+    </LinearLayout>
+
+    
+    <!-- BOTON + CARACTERES -->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="120dp"
+            android:onClick="enviarPregunta"
+            android:text="enviar" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Caracteres: " />
+
+        <TextView
+            android:id="@+id/id2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="180" />
+
+    </LinearLayout>
+
+</LinearLayout>
